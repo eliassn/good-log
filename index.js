@@ -1,4 +1,4 @@
-/// <reference path="./index.d.ts"/>
+/// <reference types="./index.d.ts"/>
 // @ts-check
 class Glog {
   /** @type {import('Glog-types').debug} */
