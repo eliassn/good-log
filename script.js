@@ -1,0 +1,1 @@
+const Glog = require("@elies-chelbi/goodlogger")
