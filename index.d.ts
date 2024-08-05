@@ -1,14 +1,14 @@
 declare module "Glog-types" {
-    interface debug {
+    type debug = {
       (message: string, data: object)
     }
-    interface clear_and_debug {
+    type clear_and_debug = {
       (message: string, data: object)
     }
-    interface error {
+    type error ={
       (message: string, data: object)
     }
-    interface clear_and_showError {
+    type clear_and_showError = {
       (message: string, data: object)
     }
 }
