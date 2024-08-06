@@ -2,7 +2,9 @@
 
 - example usage
 ```javascript
-const Glog = require("@elies-chelbi/goodlogger")
+import {Glog} from "@elies-chelbi/goodlogger"
 
-Glog.debug("message or function name you want to debug", {data object you want to display})
+const logger = new Glog()
+
+logger.debug("message or function name you want to debug", {data object you want to display})
 
