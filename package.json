@@ -1,6 +1,6 @@
 {
   "name": "@elies-chelbi/goodlogger",
-  "version": "1.2.11",
+  "version": "1.2.2",
   "description": "an npm package for beautifull organized console logs",
   "main": "index.js",
   "type": "module",
